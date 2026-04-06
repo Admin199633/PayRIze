@@ -1,0 +1,247 @@
+2026-04-06 19:14:27,312 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 43, in run_desktop_flow
+    _validate_inputs(bank_files, seed_file, yearly_workbook, month, cache_file)
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 159, in _validate_inputs
+    raise ValueError("Select a yearly workbook file.")
+ValueError: Select a yearly workbook file.
+2026-04-06 19:14:36,337 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 43, in run_desktop_flow
+    _validate_inputs(bank_files, seed_file, yearly_workbook, month, cache_file)
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 167, in _validate_inputs
+    raise FileNotFoundError(f"Required file or folder was not found: {missing_text}")
+FileNotFoundError: Required file or folder was not found: 2026
+2026-04-06 19:14:55,898 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:14:55,898 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:14:55,980 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:14:56,061 INFO ledgerflow.pipeline No transactions for month 3 after dedup; skipping categorization.
+2026-04-06 19:14:56,061 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 63, in run_desktop_flow
+    raise ValueError(
+ValueError: No transactions were found for month 3. Choose a different month or check the selected files.
+2026-04-06 19:15:28,798 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:15:28,798 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:15:28,860 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:15:28,912 INFO ledgerflow.pipeline No transactions for month 3 after dedup; skipping categorization.
+2026-04-06 19:15:28,912 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 63, in run_desktop_flow
+    raise ValueError(
+ValueError: No transactions were found for month 3. Choose a different month or check the selected files.
+2026-04-06 19:20:58,787 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:20:58,787 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:20:58,815 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:20:58,868 INFO ledgerflow.pipeline No transactions for month 3 after dedup; skipping categorization.
+2026-04-06 19:20:58,884 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 63, in run_desktop_flow
+    raise ValueError(
+ValueError: No transactions were found for month 3. Choose a different month or check the selected files.
+2026-04-06 19:21:06,703 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:21:06,703 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:21:06,726 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:21:06,800 INFO ledgerflow.pipeline No transactions for month 3 after dedup; skipping categorization.
+2026-04-06 19:21:06,800 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 63, in run_desktop_flow
+    raise ValueError(
+ValueError: No transactions were found for month 3. Choose a different month or check the selected files.
+2026-04-06 19:21:13,628 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:21:13,628 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:21:13,647 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:21:13,727 INFO ledgerflow.pipeline No transactions for month 3 after dedup; skipping categorization.
+2026-04-06 19:21:13,727 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 63, in run_desktop_flow
+    raise ValueError(
+ValueError: No transactions were found for month 3. Choose a different month or check the selected files.
+2026-04-06 19:39:17,145 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:39:17,145 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:39:17,166 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:39:17,190 INFO ledgerflow.pipeline No transactions for month 3 after dedup; skipping categorization.
+2026-04-06 19:39:17,190 ERROR ledgerflow.app LedgerFlow desktop run failed.
+Traceback (most recent call last):
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\app.py", line 130, in _run_job
+    summary = run_desktop_flow(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liorsw\Downloads\LedgerFlow\ledgerflow\desktop_runner.py", line 63, in run_desktop_flow
+    raise ValueError(
+ValueError: No transactions were found for month 3. Choose a different month or check the selected files.
+2026-04-06 19:48:50,790 INFO ledgerflow.desktop_runner OPENAI_API_KEY not set. GPT categorization is disabled for this run.
+2026-04-06 19:48:50,790 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:48:50,821 INFO ledgerflow.desktop_runner Extraction complete: extracted=24, headers=2, candidate_rows=24, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 19:48:50,821 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:48:50,859 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_194850\raw_transactions.csv (23 rows).
+2026-04-06 19:48:50,859 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_194850\categorized_transactions.csv (23 rows).
+2026-04-06 19:48:50,859 INFO ledgerflow.desktop_runner Pipeline counts: extracted=24, after_dedup=24, after_month_filter=23.
+2026-04-06 19:48:50,859 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 19:48:54,397 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 19:52:26,267 INFO ledgerflow.desktop_runner OpenAI package is not installed. GPT categorization is disabled for this run.
+2026-04-06 19:52:26,267 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:52:26,315 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 19:52:26,315 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:52:26,329 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_195226\raw_transactions.csv (51 rows).
+2026-04-06 19:52:26,329 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_195226\categorized_transactions.csv (51 rows).
+2026-04-06 19:52:26,329 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 19:52:26,329 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 19:52:29,907 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 19:55:34,656 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 19:55:34,922 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:55:34,955 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 19:55:34,955 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:55:34,979 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 19:55:39,253 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 19:55:39,278 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_195534\raw_transactions.csv (51 rows).
+2026-04-06 19:55:39,280 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_195534\categorized_transactions.csv (51 rows).
+2026-04-06 19:55:39,280 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 19:55:39,280 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 19:55:43,074 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 19:58:35,740 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 19:58:36,016 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 19:58:36,033 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 19:58:36,033 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 19:58:36,066 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 19:58:40,735 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 19:58:40,751 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_195835\raw_transactions.csv (51 rows).
+2026-04-06 19:58:40,751 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_195835\categorized_transactions.csv (51 rows).
+2026-04-06 19:58:40,751 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 19:58:40,751 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 19:58:44,797 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 20:05:17,657 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 20:05:17,937 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 20:05:17,953 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 20:05:17,953 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 20:05:17,985 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 20:05:22,267 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 20:05:22,283 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_200517\raw_transactions.csv (51 rows).
+2026-04-06 20:05:22,283 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_200517\categorized_transactions.csv (51 rows).
+2026-04-06 20:05:22,283 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 20:05:22,283 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 20:05:26,424 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 20:08:10,422 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 20:08:10,706 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 20:08:10,719 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 20:08:10,719 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 20:08:10,751 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 20:08:13,597 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 20:08:13,616 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_200810\raw_transactions.csv (51 rows).
+2026-04-06 20:08:13,616 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_200810\categorized_transactions.csv (51 rows).
+2026-04-06 20:08:13,616 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 20:08:13,616 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 20:08:21,254 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 20:16:33,006 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 20:16:33,278 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 20:16:33,299 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 20:16:33,299 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 20:16:33,314 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 20:16:36,491 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 20:16:36,505 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_201632\raw_transactions.csv (51 rows).
+2026-04-06 20:16:36,508 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_201632\categorized_transactions.csv (51 rows).
+2026-04-06 20:16:36,508 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 20:16:36,508 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 20:16:40,328 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 20:21:12,046 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 20:21:12,322 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 20:21:12,344 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 20:21:12,344 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 20:21:12,360 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 20:21:15,716 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 20:21:15,720 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_202111\raw_transactions.csv (51 rows).
+2026-04-06 20:21:15,720 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_202111\categorized_transactions.csv (51 rows).
+2026-04-06 20:21:15,720 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 20:21:15,720 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 20:21:21,439 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 20:25:30,610 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 20:25:30,888 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 20:25:30,912 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 20:25:30,913 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 20:25:30,938 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 20:25:34,142 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 20:25:34,158 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_202530\raw_transactions.csv (51 rows).
+2026-04-06 20:25:34,158 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_202530\categorized_transactions.csv (51 rows).
+2026-04-06 20:25:34,158 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 20:25:34,158 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 20:25:38,751 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 23:22:49,228 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 23:22:49,583 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 23:22:49,612 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 23:22:49,612 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 23:22:49,641 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 23:22:53,170 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 23:22:53,176 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_232248\raw_transactions.csv (51 rows).
+2026-04-06 23:22:53,176 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_232248\categorized_transactions.csv (51 rows).
+2026-04-06 23:22:53,176 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 23:22:53,176 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 23:22:58,895 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-06 23:27:33,039 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-06 23:27:33,325 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-06 23:27:33,363 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-06 23:27:33,363 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-06 23:27:33,389 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-06 23:27:36,504 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-06 23:27:36,520 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_232732\raw_transactions.csv (51 rows).
+2026-04-06 23:27:36,520 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260406_232732\categorized_transactions.csv (51 rows).
+2026-04-06 23:27:36,520 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-06 23:27:36,520 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-06 23:27:40,772 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-07 00:03:16,082 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-07 00:03:16,455 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-07 00:03:16,493 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-07 00:03:16,493 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-07 00:03:16,520 INFO ledgerflow.pipeline Calling GPT for 7 unresolved merchants.
+2026-04-07 00:03:19,209 INFO httpx HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-07 00:03:19,219 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_000315\raw_transactions.csv (51 rows).
+2026-04-07 00:03:19,219 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_000315\categorized_transactions.csv (51 rows).
+2026-04-07 00:03:19,221 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-07 00:03:19,221 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-07 00:03:23,367 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-07 00:23:01,743 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-07 00:23:02,124 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-07 00:23:02,156 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-07 00:23:02,156 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-07 00:23:02,188 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_002301\raw_transactions.csv (51 rows).
+2026-04-07 00:23:02,188 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_002301\categorized_transactions.csv (51 rows).
+2026-04-07 00:23:02,188 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-07 00:23:02,188 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-07 00:23:07,039 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-07 00:32:26,550 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-07 00:32:26,918 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-07 00:32:26,945 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-07 00:32:26,945 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-07 00:32:26,978 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_003225\raw_transactions.csv (51 rows).
+2026-04-07 00:32:26,980 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_003225\categorized_transactions.csv (51 rows).
+2026-04-07 00:32:26,980 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-07 00:32:26,980 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-07 00:32:31,526 INFO ledgerflow.desktop_runner Run completed successfully.
+2026-04-07 01:00:18,278 INFO ledgerflow.desktop_runner GPT categorization is enabled for unresolved merchants.
+2026-04-07 01:00:18,540 INFO ledgerflow.desktop_runner Extracting transactions from bank files...
+2026-04-07 01:00:18,558 INFO ledgerflow.desktop_runner Extraction complete: extracted=110, headers=7, candidate_rows=110, skipped_invalid_date=0, skipped_invalid_amount=0, skipped_missing_merchant=0, skipped_short_rows=0.
+2026-04-07 01:00:18,558 INFO ledgerflow.desktop_runner Running categorization pipeline...
+2026-04-07 01:00:18,587 INFO ledgerflow.pipeline Raw CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_010017\raw_transactions.csv (51 rows).
+2026-04-07 01:00:18,587 INFO ledgerflow.pipeline Categorized CSV written to C:\Users\liorsw\Downloads\ledgerflow_run_20260407_010017\categorized_transactions.csv (51 rows).
+2026-04-07 01:00:18,587 INFO ledgerflow.desktop_runner Pipeline counts: extracted=110, after_dedup=109, after_month_filter=51.
+2026-04-07 01:00:18,587 INFO ledgerflow.desktop_runner Writing yearly workbook output...
+2026-04-07 01:00:22,060 INFO ledgerflow.desktop_runner Run completed successfully.
