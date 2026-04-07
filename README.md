@@ -18,11 +18,10 @@ ren PayRize-main LedgerFlow
 ```powershell
 winget install Python 3.12
 cd LedgerFlow
+```
+```powershell
 py -m ledgerflow
 ```
-
-
-
 Processes bank transaction Excel exports, categorizes them, and writes the
 results into a yearly Excel workbook.
 
