@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: ledgerflow
-Version: 0.1.0
-Summary: Bank transaction processing and categorization pipeline
-Requires-Python: >=3.11
-Requires-Dist: openpyxl>=3.1
-Provides-Extra: dev
-Requires-Dist: pytest>=8.0; extra == "dev"
-Requires-Dist: pytest-cov>=5.0; extra == "dev"
