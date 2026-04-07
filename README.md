@@ -194,6 +194,25 @@ then `credentials.json` will also be resolved relative to that same folder.
 
 ---
 
+## Path resolution
+
+All file paths in `config.json` (`google_service_account_file`, `cache_path`,
+`seed_mapping_path`) are resolved **relative to the directory that contains
+`config.json`** — not the working directory or the Python/EXE launch path.
+
+- **Relative path** → resolved against the folder of `config.json`
+- **Absolute path** → used as-is
+
+This means you can move the entire project folder (or copy it to a new machine)
+without changing any paths.  The only requirement is that `credentials.json`,
+`cache.json`, etc. sit next to `config.json` — or that you use absolute paths if
+they live elsewhere.
+
+The resolved absolute path is written to the log at startup so you can always
+verify which file is actually being used.
+
+---
+
 ## Configuration (`config.json`)
 
 ```json
@@ -229,3 +248,4 @@ commit real spreadsheet IDs or credentials.
 `Other` · `Business` · `Pharm` · `Insurance` · `Transportation` · `Leisure` · `Home`
 
 `Mortgage` is available when `include_mortgage: true` in config.
+"# PayRIze" 
