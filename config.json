@@ -1,0 +1,29 @@
+{
+  "seed": {
+    "spreadsheet_id": "1C3nzCveQlN1NvrIhxdsz--WIszojTdNhVtA-DHYISaE",
+    "worksheet_name": "Seed"
+  },
+  "year": {
+    "spreadsheet_id": "1IK-1mk2iDG866oBV3RJkzAWZ-el5jFJfCTkBuj6-SzU",
+    "month_sheets": {
+      "1": "ינואר",
+      "2": "פברואר",
+      "3": "מרץ",
+      "4": "אפריל",
+      "5": "מאי",
+      "6": "יוני",
+      "7": "יולי",
+      "8": "אוגוסט",
+      "9": "ספטמבר",
+      "10": "אוקטובר",
+      "11": "נובמבר",
+      "12": "דצמבר"
+    }
+  },
+  "google_service_account_file": "credentials.json",
+  "currency_rates": {
+    "USD": 3.15,
+    "EUR": 3.63,
+    "GBP": 4.16
+  }
+}
