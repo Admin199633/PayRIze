@@ -17,6 +17,7 @@ ren PayRize-main LedgerFlow
 
 ```powershell
 winget install Python 3.12
+cd LedgerFlow
 py -m ledgerflow
 ```
 
