@@ -1,5 +1,63 @@
 # LedgerFlow
 
+
+התקנה והגדרה
+1️⃣ הורדת הפרויקט
+הורד את הקובץ ZIP מ־GitHub
+פתח את ה‑ZIP ו־העתק את התיקייה למיקום הרצוי, לדוגמה:
+C:\Users\LiorSw\Downloads
+פתח CMD במיקום הזה:
+cd C:\Users\LiorSw\Downloads
+שנה את שם התיקייה (כדי להוריד את -main):
+ren LedgerFlow-main LedgerFlow
+2️⃣ התקנת Python (אם לא מותקן)
+winget install Python.Python.3.12
+
+לאחר ההתקנה, בדוק שהתקנה עברה בהצלחה:
+
+python --version
+
+או
+
+py --version
+3️⃣ התקנת חבילות נדרשות
+
+ב־CMD, בתוך התיקייה הראשית של הפרויקט:
+
+cd LedgerFlow
+py -m pip install -r requirements.txt
+
+אם אין requirements.txt, התקן חבילות נדרשות לפי הקוד שלך (למשל PyInstaller, google-api-python-client, google-auth).
+
+4️⃣ הגדרת Google Sheets (credentials)
+פתח את Google Cloud Console
+צור Service Account חדש
+צור JSON Key עבור ה‑Service Account
+הורד את הקובץ ושנה את שמו ל:
+credentials.json
+העתק את הקובץ לתיקייה הראשית של הפרויקט:
+C:\Users\LiorSw\Downloads\LedgerFlow\credentials.json
+שתף את Google Sheet עם ה‑email של ה‑Service Account (Editor).
+5️⃣ הרצת הפרויקט
+
+בתוך התיקייה הראשית של הפרויקט:
+
+py -m ledgerflow
+
+או אם אתה בתוך ledgerflow:
+
+py __main__.py
+6️⃣ לבנות EXE (אופציונלי)
+
+אם רוצים ליצור קובץ הפעלה:
+
+py -m PyInstaller ledgerflow/__main__.py
+
+או אם יש .spec מוכן:
+
+py -m PyInstaller LedgerFlow.spec
+
+
 Processes bank transaction Excel exports, categorizes them, and writes the
 results into a yearly Excel workbook.
 
