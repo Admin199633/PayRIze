@@ -1,0 +1,31 @@
+{
+  "seed": {
+    "spreadsheet_id": "YOUR_SEED_SPREADSHEET_ID",
+    "worksheet_name": "Seed"
+  },
+  "year": {
+    "spreadsheet_id": "YOUR_YEAR_SPREADSHEET_ID",
+    "month_sheets": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    }
+  },
+  "run_log_worksheet_name": "RunLog",
+  "google_service_account_file": "credentials.json",
+  "currency_rates": {
+    "USD": 3.149,
+    "EUR": 3.92,
+    "GBP": 4.61
+  },
+  "cache_path": "cache.json"
+}

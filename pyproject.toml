@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ledgerflow"
+version = "0.1.0"
+description = "Bank transaction processing and categorization pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "google-api-python-client>=2.0",
+    "google-auth>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+]
+build = [
+    "pyinstaller>=6.0",
+]
+gpt = [
+    "openai>=1.0",
+]
+
+[project.scripts]
+ledgerflow-gui = "ledgerflow.app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ledgerflow*"]

@@ -1,0 +1,31 @@
+# Local secrets / machine-specific config
+config.json
+credentials.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / test cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+_internal/
+LedgerFlow.exe
+
+# Logs
+*.log
+
+# Local run outputs
+runs/
+ledgerflow_run_*/
